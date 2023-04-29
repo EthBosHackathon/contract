@@ -13,4 +13,9 @@ library DataTypes {
         address renterAddress;
         uint256 expiresAt;
     }
+
+    struct Property {
+        address ownerAddress;
+        uint256 pricePerDay;
+    }
 }
